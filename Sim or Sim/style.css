@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 30vw;
+  border-radius: 20px;
+  background-color: rgb(221, 236, 250);
+}
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  width: 20vw;
+  height: 2vw;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-sim {
+  background-color: inherit;
+  border-radius: 20px;
+}
+
+.btn-nao {
+  background-color: inherit;
+  border-radius: 20px;
+}
+.btn-nao:hover {
+  background-color: rgb(255, 156, 156);
+  border-radius: 20px;
+  transition: background-color 0.5s ease, color 0.1s ease;
+}
+.btn-sim:hover {
+  background-color: rgb(255, 156, 156);
+  border-radius: 20px;
+  transition: background-color 0.5s ease, color 0.1s ease;
+}

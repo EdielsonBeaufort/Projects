@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player de Musica Basico || Beaufour</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <audio
+        class="audio_mp3"
+        src="Assets/Assets Audio/Hashiras x Kokushibou (Kimetsu no Yaiba) - Castelo Infinito _ M4rkim.mp3"
+        controls
+      ></audio>
+      <div class="btn-content">
+        <img
+          onclick="voltar()"
+          class="btn"
+          src="Assets/Assets Img/botão retroceder - Prosseguir.png"
+        />
+        <img class="btn" onclick="pause()" src="Assets/Assets Img/Pausee.png" />
+        <img
+          class="btn"
+          onclick="volBaixo()"
+          src="Assets/Assets Img/volume-baixo.png"
+        />
+        <img
+          class="btn"
+          onclick="resume()"
+          src="Assets/Assets Img/Resume.png"
+        />
+        <img
+          class="btn"
+          onclick="volAlto()"
+          src="Assets/Assets Img/volume alto.png"
+        />
+        <img class="btn" onclick="mute()" src="Assets/Assets Img/Mute.png" />
+        <img
+          onclick="avancar()"
+          class="btn-prosse"
+          src="Assets/Assets Img/botão retroceder - Prosseguir.png"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

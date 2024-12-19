@@ -1,0 +1,52 @@
+.btn-roletar {
+  width: 15vw;
+  height: 5vw;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.btn-roletar:active {
+  background-color: rgb(104, 247, 104);
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+.centralizada {
+  background-color: aqua;
+  position: absolute;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.resultadoSorteio {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.resultado2 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.divDosBotões {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}

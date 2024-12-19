@@ -1,0 +1,24 @@
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-content {
+  margin-top: 40px;
+  max-width: 100%px;
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  width: 50px;
+}
+.btn-prosse {
+  width: 50px;
+}
+.btn-prosse {
+  rotate: 180deg;
+}
